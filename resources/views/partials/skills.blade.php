@@ -6,8 +6,10 @@
     - MySql
     - Linux
     - Nginx
-    - LAMP / WAMP
+    - LAMP / WAMP / MAMP
     - RESTful APIs
+    - Unix
+    - Apache 
         
   Front Ends: 
    - HTML 

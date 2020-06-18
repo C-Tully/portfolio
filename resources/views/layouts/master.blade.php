@@ -7,15 +7,20 @@
   <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css" >
   
   <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/2.1.11/jquery.mixitup.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/2.1.11/jquery.mixitup.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
+  <script src="https://use.fontawesome.com/c72c630599.js"></script>  
 </head>
 <body>
-<!-- Page Content -->
-<section class="py-5 bg-dark">
-    <div class="container">
-      @section('content')
 
-      @show
-    </div>
+<!-- Page Content -->
+@yield('content')
 </section>
 @php  @include('/partials/footer') @endphp
 <script src="{{ asset('js/app.js') }}" ></script>

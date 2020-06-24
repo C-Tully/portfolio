@@ -12,4 +12,6 @@ const mix = require('laravel-mix');
  */
 
 mix.js('resources/js/app.js', 'public/js')
+    .js('resources/js/vendor/TweenLite.min.js','public/js')
+    .js('resources/js/vendor/EasePack.min.js','public/js')
     .sass('resources/sass/app.scss', 'public/css');

@@ -1,4 +1,6 @@
 {
+    "/js/EasePack.min.js": "/js/EasePack.min.js",
+    "/js/TweenLite.min.js": "/js/TweenLite.min.js",
     "/js/app.js": "/js/app.js",
     "/css/app.css": "/css/app.css"
 }

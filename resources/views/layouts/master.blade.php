@@ -15,7 +15,8 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/2.1.11/jquery.mixitup.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
-  <script src="https://use.fontawesome.com/c72c630599.js"></script>  
+
+  
 </head>
 <body>
 
@@ -23,6 +24,8 @@
 @yield('content')
 </section>
 @php  @include('/partials/footer') @endphp
+<script src="{{ asset('js/TweenLite.min.js') }}" ></script>
+<script src="{{ asset('js/EasePack.min.js') }}" ></script>
 <script src="{{ asset('js/app.js') }}" ></script>
 </body>
 </html>

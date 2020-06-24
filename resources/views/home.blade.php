@@ -1,15 +1,23 @@
 @extends('layouts.master')
 @section('content')
 <section id="home" class="flex height-fix">
-  <div id="pt" class="canvas"><canvas id="canvas" width="2880" height="936" style="width: 1440px; height: 468px;"></canvas></div>
+  <div id="pt" class="canvas">
+    <canvas id="demo-canvas"></canvas>    
+  </div>
+  
   <div class="flex">
-    <div class="text">
-      <p> Hi, My name's <span class="highlight">Christopher Tully</span>.</p>
-      <p>I'm a Software/Web Developer!</p>      
+    <div class="content">
+      <div id="large-header" class="large-header">
+        <div class="text">
+          <p> Hi, My name's <span class="highlight">Christopher Tully</span>.</p>
+          <p>I'm a Software/Web Developer!</p>      
+        </div>
+        <div class="button page-link" dest="about">
+          View my work <i class="fa fa-id-badge" aria-hidden="true"></i>
+        </div>
+      </div>
     </div>
-    <div class="button page-link" dest="about">
-      View my work <i class="fa fa-id-badge" aria-hidden="true"></i>
-    </div>
+
     <nav class="flex desk">
       <div class="link-wrap">
         <div class="page-link active" dest="home">home</div>
